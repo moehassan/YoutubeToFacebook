@@ -62,9 +62,9 @@ if(!$video) exit('ERROR - INVALID VIDEO ID');
 
 
         <meta property='og:video' content='https://youtu.be/<?php echo $video_id ?>'/>
-        <meta property='og:video:height' content='<?php echo $video['width'] ?>'/>
+        <meta property='og:video:height' content='<?php echo $video['height'] ?>'/>
         <meta property='og:video:type' content='application/x-shockwave-flash'/>
-        <meta property='og:video:width' content='<?php echo $video['height'] ?>'/>
+        <meta property='og:video:width' content='<?php echo $video['width'] ?>'/>
         <meta property='og:type' content='video'/>
 
 
