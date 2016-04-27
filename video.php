@@ -23,9 +23,6 @@
     SOFTWARE.
 */
 
-/* SETTINGS */
-$twitter_username= '@moehassan'; #Change to your twitter username
-
 
 /* ###################################################################### */
 /** PLEASE DON'T EDIT BELOW THESE LINES UNLESS YOU KNOW WHAT YOU'RE DOING **/
@@ -69,7 +66,6 @@ if(!$video) exit('ERROR - INVALID VIDEO ID');
 
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="<?php echo $twitter_username ?>" />
         <meta name="twitter:title" content="<?php echo $video['title'] ?>" />
         <meta name="twitter:description" content="<?php echo $video['title'] ?>" />
         <meta name="twitter:description" content="<?php echo $video['title'] ?>" />
