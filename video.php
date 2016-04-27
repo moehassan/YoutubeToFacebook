@@ -44,8 +44,6 @@ function get_youtube_video($video_id){
 
 $video = get_youtube_video($video_id);
 if(!$video) exit('ERROR - INVALID VIDEO ID');
-
-print_r($video);
 ?>
 
 <html>
