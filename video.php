@@ -79,6 +79,8 @@ if(!$video) exit('ERROR - INVALID VIDEO ID');
     </head>
     <body>
         <h1><?php echo $video['title'] ?></h1>
+        <img src="<?php echo $video['thumbnail_url'] ?>" style="display: none;"/>
         <iframe width="100%" height="90%" src="https://www.youtube.com/embed/<?php echo $video_id ?>?rel=0" frameborder="0" allowfullscreen></iframe>
+        <img src="<?php echo $video['thumbnail_url'] ?>" style="display: none;"/>
     </body>
 </html>
